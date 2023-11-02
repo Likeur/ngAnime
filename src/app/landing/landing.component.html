@@ -1,0 +1,46 @@
+<main>
+    <section class="p-4 h-screen relative overflow-x-hidden overflow-y-scroll">
+        <div class="absolute bg-blue-700/30 left-4 -top-[40rem] z-10 w-[80rem] blur-2xl h-[80rem] rounded-full"></div>
+        <nav class="relative container z-50 mx-auto flex justify-between items-center p-4">
+            <div>
+                <p class="font-bold text-3xl text-gray-950">NEX<span class="text-blue-600">Art</span></p>
+            </div>
+            <ul id="nav-links" class="absolute duration-500 scale-0 right-16 w-64 border top-20 p-8 rounded-3xl bg-white shadow-lg">
+                <li id="link1" class="-mt-1 hover:scale-110 hover:duration-300 cursor-pointer hover:bg-blue-600 hover:text-white p-2 rounded-lg hover:shadow-lg"><a>Home</a></li>
+                <li id="link2" class="-mt-1 hover:scale-110 hover:duration-300 cursor-pointer hover:bg-blue-600 hover:text-white p-2 rounded-lg hover:shadow-lg"><a>Features</a></li>
+                <li id="link3" class="-mt-1 hover:scale-110 hover:duration-300 cursor-pointer hover:bg-blue-600 hover:text-white p-2 rounded-lg hover:shadow-lg"><a>Pricings</a></li>
+                <li id="link4" class="-mt-1 hover:scale-110 hover:duration-300 cursor-pointer hover:bg-blue-600 hover:text-white p-2 rounded-lg hover:shadow-lg"><a>Testimonials</a></li>
+                <li id="link5" class="-mt-1 hover:scale-110 hover:duration-300 cursor-pointer hover:bg-blue-600 hover:text-white p-2 rounded-lg hover:shadow-lg"><a>Contact</a></li>
+            </ul>
+            <button id="btn-menu" (click)="isClicked()" class="p-2 px-10 rounded-full flex justify-around items-center shadow-lg bg-gray-950 text-white hover:duration-300">
+                <span class="inline-block">Menu</span>
+                <span class="inline-block mt-1"><i class='bx bx-grid-small text-xl'></i></span>
+            </button>
+        </nav>
+
+        <div class="flex flex-col items-center justify-center mt-10">
+            <h1 id="hero-text2" class="font-bold text-gray-950 text-[2rem]  lg:text-[5rem] text-center">The <span class="bg-gradient-to-r from-purple-700 to-orange-600 text-transparent bg-clip-text">best-building</span> tool</h1>
+            <h1 id="hero-text" class="  text-[2rem] lg:text-[5rem] font-bold">you’ll love using</h1>
+            <p id="paragraphe" class="text-center mt-3">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form</p>
+            <div class="mt-5 z-50">
+                <a id="btn-purchasse" class="p-3 px-10 inline-block  cursor-pointer bg-gray-950 rounded-full text-white hover:bg-gray-800 hover:duration-300">Purchase</a>
+                <a id="btnlearn" class="ml-5 underline inline-block cursor-pointer">Learn more</a>
+            </div>
+        </div>
+        <div class="flex justify-center lg:mt-5 relative">
+            <div id="" class=" dashimage -top-72 lg:top-0 relative block overflow-hidden object-cover bg-gray-950 rounded-3xl w-[50rem] lg:h-[30rem]">
+                <img src="https://cdn.dribbble.com/userupload/9825820/file/original-2de652b026c90104e7c3cd842d0773be.png?resize=1024x768" alt="">
+                
+            </div>
+            <div id="profile1" class="absolute h-16 w-16 lg:h-32 lg:w-32 -right-5 top-28 lg:right-32 lg:-top-10 rounded-full overflow-hidden object-cover bg-blue-700">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+            <div id="profile2" class="absolute h-16 w-16 lg:h-32 lg:w-32 left-1 lg:left-32 -bottom-20 lg:bottom-10 rounded-full bg-blue-700 overflow-hidden object-cover">
+                <img src="https://images.pexels.com/photos/3775540/pexels-photo-3775540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+            
+        </div>
+        <section class="h-screen"></section>
+    </section>
+    
+</main>
