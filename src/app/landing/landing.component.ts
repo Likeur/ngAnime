@@ -79,7 +79,7 @@ export class LandingComponent implements OnInit {
 
       btnMenu.classList.toggle('bg-white')
       btnMenu.classList.toggle('bg-gray-950')
-      btnMenu.classList.toggle('text-gray-950')
+      btnMenu.classList.toggle('text-white')
       navLinks.classList.toggle('scale-0')
 
       // gsap.from("#nav-links",{
